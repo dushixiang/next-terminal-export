@@ -1,0 +1,13 @@
+builds:
+  - env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+    goarch:
+      - arm64
+      - amd64
+    main: main.go  # Add main file path
+    dir: .                   # Set base directory for build
+    binary: next-terminal-export           # Set binary name
+checksum:
+  name_template: "checksums.txt"
