@@ -7,7 +7,7 @@ toolchain go1.23.5
 require (
 	gopkg.in/yaml.v3 v3.0.1
 	gorm.io/driver/mysql v1.5.7
-	gorm.io/driver/sqlite v1.5.7
+	github.com/glebarez/sqlite v1.11.0
 	gorm.io/gorm v1.25.12
 )
 

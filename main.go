@@ -10,9 +10,9 @@ import (
 	"github.com/dushixiang/next-terminal-export/model"
 	"github.com/dushixiang/next-terminal-export/utils"
 
+	"github.com/glebarez/sqlite"
 	"gopkg.in/yaml.v3"
 	"gorm.io/driver/mysql"
-	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 )
 
